@@ -1,0 +1,20 @@
+EXP:
+  ADVICE_METHOD: "CLIPZS"
+  WANDB_SILENT: False
+  PROJ: "LADS_GroZi"
+  SEED: 0
+  TEMPLATES: 'no_template'
+  LOG_HIST: False
+  
+DATA:
+  DATASET: "GroZi"
+  BATCH_SIZE: 64
+  LOAD_CACHED: True
+  UPWEIGHT_CLASSES: True
+
+METHOD:
+  MODEL:
+    NUM_LAYERS: 1
+    SEPERATE_CLASSES: True
+    RESUME: True
+  NORMALIZE: True

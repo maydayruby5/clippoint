@@ -1,0 +1,20 @@
+EXP:
+  ADVICE_METHOD: "ClipMLP"
+  WANDB_SILENT: False
+  PROJ: "LADS_Replication"
+  SEED: 0
+  TEXT_PROMPTS: ['a painting of a {} bird.']
+  NEUTRAL_TEXT_PROMPTS: ['a photo of a {} bird.']
+  EPOCHS: 400
+  CHECKPOINT_VAL: True
+
+DATA:
+  DATASET: "CUB"
+  BATCH_SIZE: 256
+
+METHOD:
+  MODEL:
+    NUM_LAYERS: 1
+    LR: 0.001
+    WEIGHT_DECAY: 0.05
+    CHECKPOINT_NAME: 'cub_lp'

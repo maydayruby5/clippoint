@@ -1,0 +1,15 @@
+EXP:
+  ADVICE_METHOD: "CLIPZS"
+  WANDB_SILENT: False
+  PROJ: "LADS_Replication"
+  SEED: 0
+  TEMPLATES: 'cub_template'
+  # uncomment this if you want to run ZS (G)
+  # TEMPLATES: 'no_template'
+  
+DATA:
+  DATASET: "CUB"
+  BATCH_SIZE: 32
+  # uncomment if you need to compute the clip embeddings
+  # SAVE_PATH: "data/cub/vit_14.pth"
+  # LOAD_CACHED: False
